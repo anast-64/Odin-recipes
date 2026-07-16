@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFE3F3;
+    color: #2A0354;
+}
+
+.heading-container {
+    text-align: center;
+    font-size: 50px;
+}
+
+.subtitle-container {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+}
+
+h1 {
+    margin-bottom: 0;
+    text-decoration: 5px underline overline;
+    text-underline-offset: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.list {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+}
+
+ul {
+    list-style: "\2764"; /* Creates heart emoji as dot points <3 */
+}
+
+ul li::marker {
+    color: #850049;
+}
+
+#recipe-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#recipe-list > li > a {
+    text-decoration: none;
+    margin-left: 10px;
+    font-style: italic;
+    color: #2A0354;
+}
