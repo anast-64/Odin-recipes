@@ -22,9 +22,22 @@ h1 {
     margin-bottom: 0;
     text-decoration: 5px underline overline;
     text-underline-offset: 20px;
+    line-height: 110px;
 }
 
 h2 {
+    margin-bottom: 1px;
+}
+
+h3 {
+    margin-bottom: 1px;
+}
+
+#title {
+    line-height: 130px;
+}
+
+#subtitle {
     margin-top: 0;
 }
 
@@ -53,4 +66,42 @@ ul li::marker {
     margin-left: 10px;
     font-style: italic;
     color: #2A0354;
+}
+
+.recipe-heading-container {
+    text-align: center;
+    font-size: 40px;
+}
+
+.heart-para::before,
+.heart-para::after {
+    content: "\2764";
+    color: #850049;
+}
+
+.heart-para > a {
+    text-decoration: none;
+    color: #2A0354;
+}
+
+.align-centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    max-width: 500px;
+}
+
+ol {
+    max-width: 500px;
+}
+
+li.full-width-img {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
 }
